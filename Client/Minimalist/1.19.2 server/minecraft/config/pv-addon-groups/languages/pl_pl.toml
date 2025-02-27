@@ -1,0 +1,88 @@
+[server.pv.addon.groups]
+divider = "&8&m-----------------------------------------------------"
+
+[server.pv.addon.groups.format]
+group_name = "&6[%s]"
+players_and_owner = "&7Gracze: &r%1$s&7, posiadana przez &r%2$s"
+invite = "%1$s zaprosił(a) Cię do dołączenia grupy głosowej %2$s"
+only_players = "&7Gracze: &r%s"
+page = "&7Strona &r%s/%s"
+
+[server.pv.addon.groups.tooltip]
+group_uuid = "Uuid: %s"
+password_protected = "Grupa jest zabezpieczona hasłem"
+
+[server.pv.addon.groups.error]
+not_in_group = "&cMusisz być w grupie, aby wykonać to polecenie"
+name_length = "&cDługość nazwy grupy powinna być pomiędzy %1$s a %2$s"
+player_not_found = "&cBrak gracza o podanej nazwie"
+unknown_subcommand = "&cNieznane polecenie. Dostępne polecenia: %s"
+unknown = "&cNieznany błąd"
+group_not_found = "&cGrupa nie odnaleziona"
+uuid_parse = "&cBłąd przetwarzania Uuid. '%s' nie jest Uuid"
+no_permission = "&cBrak permisji: '%s'"
+
+[server.pv.addon.groups.icons]
+password_protected = "&6⛨"
+
+[server.pv.addon.groups.command.set.error]
+unknown_flag = "&cNieznana flaga: \"%1$s\". Dostępne flagi: %2$s\""
+usage = "&cUżycie: /groups set <flaga> <wartość>"
+identical_value = "&cPodana wartość jest identyczna do aktualnej wartości"
+
+[server.pv.addon.groups.command.unset.error]
+permissions_not_set = "&cFiltr uprawnień jest już pusty"
+unknown_flag = "&cNie można użyć flagi \"%1$s\". Dostępne flagi: %2$s"
+password_not_set = "&cGrupa już nie jest chroniona hasłem"
+usage = "&cUżycie: /groups unset <flaga>"
+
+[server.pv.addon.groups.command.transfer.error]
+already_owner = "&cJuż jesteś właścicielem grupy"
+usage = "&cUżycie: /groups transfer <gracz>"
+
+[server.pv.addon.groups.command.leave]
+success = "&aOpuściłeś grupę"
+
+[server.pv.addon.groups.command.create]
+success = "&aGrupa została stworzona:"
+
+[server.pv.addon.groups.command.invite]
+success = "&aZaproszenie wysłane do %s"
+
+[server.pv.addon.groups.command.invite.error]
+already_joined = "&cGracz już dołączył do grupy"
+usage = "&cUżycie: /groups invite <gracz>"
+invite_self = "&cNie możesz zaprosić siebie"
+
+[server.pv.addon.groups.command.join]
+success = "&aDołączyłeś do grupy"
+
+[server.pv.addon.groups.command.join.error]
+already_joined = "&cJuż dołączyłeś do tej grupy"
+usage = "Użycie: /groups join <uuid grupy> [hasło]"
+
+[server.pv.addon.groups.command.browse.error]
+page_not_found = "&cNie odnaleziono strony"
+no_groups = "&cBrak grup. Utwórz grupę używając \"/groups create\""
+
+[server.pv.addon.groups.button]
+next = "&e>"
+leave = "&c← Opuść"
+prev = "&e<"
+invite = "&e✉ Zaproś"
+join = "&e→ Dołącz"
+
+[server.pv.addon.groups.arg]
+groups_uuid = "<uuid grupy>"
+password = "<hasło>"
+permissions = "<lista uprawnień oddzielonych przecinkiem>"
+name = "<nazwa>"
+page = "[strona]"
+
+[server.pv.addon.groups.notifications]
+player_kicked = "%s został wyrzucony/a z grupy"
+kicked = "&cZostałeś/aś wyrzucony/a z grupy"
+password_unset = "Ochrona hasłem została usunięta"
+permissions_unset = "Protekcja uprawnień została usunięta"
+[client.pv.activation]
+groups = "Grupy"

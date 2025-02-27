@@ -1,0 +1,16 @@
+filename = 'EditSign-1.19.2-2.6.0.jar'
+name = 'EditSign'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '06a63e9270217ee2d07e8d22461b3d082a426c9e59a0a54cdbe5348d602ecec35931017ffb10c8c5ff57991153b40475f52e1140012e8bfb2ff756d329eba82d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hFMCvH85/versions/1.19.2-2.6.0/EditSign-1.19.2-2.6.0.jar'
+
+[update.modrinth]
+mod-id = 'hFMCvH85'
+version = 'cS4enerj'

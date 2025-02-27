@@ -1,0 +1,115 @@
+[client.pv.activation]
+groups = "Группы"
+
+[server.pv.addon.groups]
+divider = "&8&m-----------------------------------------------------"
+
+[server.pv.addon.groups.arg]
+groups_uuid = "<uuid группы>"
+name = "<название>"
+page = "[страница]"
+password = "<пароль>"
+permissions = "<список прав, разделенных запятыми>"
+
+[server.pv.addon.groups.button]
+invite = "&e✉ Пригласить"
+join = "&e→ Присоединиться"
+leave = "&c←Выйти"
+next = "&e>"
+prev = "&e<"
+
+[server.pv.addon.groups.command.ban.error]
+already_banned = "&cИгрок уже заблокирован в этой группе"
+usage = "&cИспользование: /groups ban <player>"
+
+[server.pv.addon.groups.command.browse.error]
+no_groups = '&cНет групп. Создайте группу с помощью "/groups create"'
+page_not_found = "Страница не найдена"
+
+[server.pv.addon.groups.command.create]
+success = "&aГруппа создана:"
+
+[server.pv.addon.groups.command.invite]
+success = "Приглашение отправлено %s"
+
+[server.pv.addon.groups.command.invite.error]
+already_joined = "&cИгрок уже присоединился к группе"
+banned = "&cИгрок заблокирован в этой группе"
+invite_self = "&7Вы не можете пригласить самого себя"
+usage = "&cИспользование: /groups invite <игрок>"
+
+[server.pv.addon.groups.command.join]
+success = "&%s присоединился к группе"
+
+[server.pv.addon.groups.command.join.error]
+already_joined = "&cВы уже присоединились к этой группе"
+banned = "&cВы были заблокированы в этой группе"
+usage = "&cИспользование: /groups join <uuid группы> [пароль]"
+
+[server.pv.addon.groups.command.kick.error]
+not_in_group = "&cИгрок не находится в группе"
+usage = "&cИспользование: /groups kick <player>"
+
+[server.pv.addon.groups.command.leave]
+success = "&aВы покинули группу"
+
+[server.pv.addon.groups.command.set.error]
+identical_value = "&cЗначение идентично текущему значению"
+unknown_flag = '&cНеизвестный флаг: "%1$s". Доступные флаги: %2$s'
+usage = "&cИспользование: /groups set <флаг> <значение>"
+
+[server.pv.addon.groups.command.transfer.error]
+already_owner = "&cВы уже владелец группы"
+usage = "&cИспользование: /groups transfer <игрок>"
+
+[server.pv.addon.groups.command.unban.error]
+not_banned = "&cИгрок не заблокирован в этой группе"
+usage = "&cИспользование: /groups unban <player>"
+
+[server.pv.addon.groups.command.unset.error]
+password_not_set = "&cГруппа уже не защищена паролем"
+permissions_not_set = "&cФильтр прав уже пуст"
+unknown_flag = '&cНельзя снять флаг "%1$s". Доступные флаги: %2$s'
+usage = "&cИспользование: /groups unset <флаг>"
+
+[server.pv.addon.groups.error]
+group_not_found = "&cГруппа не найдена"
+name_length = "&cИмя группы должно быть от %1$s до %2$s символов"
+no_permission = "&cНет прав: '%s'"
+not_in_group = "&cВы должны быть в группе для выполнения этой команды"
+player_not_found = "&cНет игрока с таким именем"
+unknown = "&cНеизвестная ошибка"
+unknown_subcommand = "&cНеизвестная команда. Доступные команды: %s"
+uuid_parse = "&cОшибка распознавания Uuid. '%s' не является Uuid"
+
+[server.pv.addon.groups.format]
+group_name = "&6[%s]"
+invite = "%1$s пригласил(а) вас в группу %2$s"
+only_players = "&7Игроки: &r%s"
+page = "&7Страница &r%s/%s"
+players_and_owner = "&7Игроки: &r%1$s&7, владелец: &r%2$s"
+
+[server.pv.addon.groups.icons]
+password_protected = "&6⛨"
+
+[server.pv.addon.groups.notifications]
+banned = "&cВы были заблокированы в группе"
+group_deleted = "Группа удалена"
+kicked = "&cВы были исключены из группы"
+name_change = "Название группы было изменено с '%1$s' на '%2$s'"
+new_owner = "Новый владелец группы: %s"
+password_changed = "Пароль группы изменён"
+password_unset = "Защита паролем удалена"
+permissions_changed = "Права группы изменены"
+permissions_unset = "Защита правами была удалена"
+persistent_false = "Теперь группа будет удалена после перезагрузки сервера"
+persistent_true = "Теперь группа не будет удалена после перезагрузки сервера"
+player_banned = "%s был заблокирован в группе"
+player_join = "%s присоединился к группе"
+player_kicked = "%s исключён из группы"
+player_left = "%s покинул группу"
+player_unbanned = "%s был разблокирован в группе"
+
+[server.pv.addon.groups.tooltip]
+group_uuid = "Uuid: %s"
+password_protected = "Группа защищена паролем"

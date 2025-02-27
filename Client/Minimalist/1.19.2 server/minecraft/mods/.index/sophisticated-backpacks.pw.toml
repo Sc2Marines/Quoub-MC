@@ -1,0 +1,16 @@
+filename = 'sophisticatedbackpacks-1.19.2-3.20.2.1035.jar'
+name = 'Sophisticated Backpacks'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '24d0b9e09ba030b160155f0fba036139851bc58bbcb66303bc0570a0c200a058770a6f4cf3d55771a543f28f757de76eafd5ae11cb36d25b5e678160033ddcdc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TyCTlI4b/versions/1TblkbcZ/sophisticatedbackpacks-1.19.2-3.20.2.1035.jar'
+
+[update.modrinth]
+mod-id = 'TyCTlI4b'
+version = '1TblkbcZ'

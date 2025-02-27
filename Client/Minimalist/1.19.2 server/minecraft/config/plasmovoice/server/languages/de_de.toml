@@ -1,0 +1,47 @@
+[server.pv.error]
+mod_missing_kick_message = "Entschuldigung, du musst die Plasmo Voice Mod installieren, um auf diesem Server spielen zu können.\nHierunter kannst du sie herunterladen: https://modrinth.com/plugin/plasmo-voice"
+player_not_found = "Spieler wurde nicht gefunden"
+version_not_supported = "Entschuldige, deine Plasmo Voice - Version wird auf diesem Server leider nicht unterstützt. %s"
+player_only_command = "Nur Spieler können diesen Befehl ausführen"
+version_not_supported_click = "Unterstützte Version herunterladen"
+no_permissions = "&cEs tut mir leid, aber du bist nicht berechtigt, diesen Befehl auszuführen. Bitte wende dich an die Serveradministratoren, wenn du glaubst, dass dies ein Fehler ist."
+version_not_supported_hover = "%s"
+[server.pv.mutes]
+unmuted = "Du wurdest entmutet"
+empty_reason = "nicht angegeben"
+permanently_muted = "Du wurdest permanent stummgeschaltet. Grund: %s"
+temporarily_muted = "%1$s du wurdest stummgeschaltet. Grund: %2$s"
+
+[server.pv.mutes.durations]
+hours = "für %s Std"
+seconds = "für %s Sek"
+weeks = "für %s W"
+minutes = "für %s Min"
+days = "für %s T"
+[server.pv.command.mute_list]
+expiration_time = "HH:mm:ss"
+never_expires = "niemals"
+expiration_date = "dd.MM.yyyy"
+empty = "Keine Spieler sind gemutet"
+entry_muted_by = "%1$s stummgeschaltet von %2$s, läuft ab: %3$s. Grund: %4$s"
+entry = "%1$s, läuft ab: %2$s. Grund: %3$s"
+header = "Stummgeschaltete Spieler:"
+expire_at = "%1$s in %2$s"
+[server.pv.command.mute]
+already_muted = "%s ist bereits stummgeschaltet"
+usage = "Verwende: /vmute <player> [duration] [reason]"
+permanently_muted = "%1$s ist permanent stummgeschaltet. Grund: %2$s"
+temporarily_muted = "%1$s wurde stummgeschaltet %2$s. Grund: %3$s"
+[server.pv.command.list]
+message = "Clients (%1$s/%2$s): %3$s"
+empty = "keine Player, die Plasmo Voice installiert haben"
+[server.pv.command.reconnect]
+message = "Erneute Verbindung gesendete Pakete"
+[server.pv.command.reload]
+message = "Konfig wurde neu geladen"
+[server.pv.command.unmute]
+unmuted = "%s wurde entmutet"
+usage = "Verwende: /vunmute <player>"
+not_muted = "%s ist nicht stummgeschaltet"
+[client.pv.activation]
+proximity = "Proximity"

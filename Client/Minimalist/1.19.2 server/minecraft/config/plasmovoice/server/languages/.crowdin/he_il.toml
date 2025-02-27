@@ -1,0 +1,57 @@
+[client.pv.activation]
+proximity = "Proximity"
+
+[server.pv.command.list]
+empty = "אין שחקנים עם Plasmo Voice מותקן"
+message = "Clients (%1$s/%2$s): %3$s"
+
+[server.pv.command.mute]
+already_muted = "%s כבר מושתק"
+permanently_muted = "%1$s מושתק לצמיתות. סיבה: %2$s"
+temporarily_muted = "מושתק %1$s %2$s. סיבה: %3$s"
+usage = "שימוש: vmute <player> [duration] [reason]/"
+
+[server.pv.command.mute_list]
+empty = "אין שחקנים מושתקים"
+entry = "%1$s, יפוג בתוך: %2$s. סיבה: %3$s"
+entry_muted_by = "%1$s הושתק על ידי %2$s, יפוג בתוך %3$s. סיבה: %4$s"
+expiration_date = "dd.mm.yyyy"
+expiration_time = "HH:mm:ss"
+expire_at = "%1$s ב %2$s"
+header = "שחקנים מושתקים:"
+never_expires = "לעולם לא"
+
+[server.pv.command.reconnect]
+message = "חבר מחדש packet נשלח"
+
+[server.pv.command.reload]
+message = "קובץ config נטען בהצלחה"
+
+[server.pv.command.unmute]
+not_muted = "%s לא מושתק"
+unmuted = "הופסק השתקה של %s"
+usage = "שימוש: <vunmute <player/"
+
+[server.pv.error]
+mod_missing_kick_message = """
+מצטערים, עליך להתקין את Plasmo Voice כדי לשחק בשרת זה.
+התקן כאן: https://modrinth.com/plugin/plasmo-voice"""
+no_permissions = "&cאני מצטער, אבל אין לך הרשאה לבצע פקודה זו. אנא צור קשר עם מנהלי השרת אם אתה סבור שזו טעות."
+player_not_found = "שחקן לא נמצא"
+player_only_command = "רק שחקנים יכולים להשתמש בפקודה זו"
+version_not_supported = "מצטערים, גרסת Plasmo Voice שלך אינה נתמכת בשרת זה. %s"
+version_not_supported_click = "הורד גרסה נתמכת"
+version_not_supported_hover = "%s"
+
+[server.pv.mutes]
+empty_reason = "לא מוגדר"
+permanently_muted = "אתה הושתק לצמיתות. סיבה: %s"
+temporarily_muted = "אתה הושתקת %1$s. סיבה: %2$s"
+unmuted = "השתקתך בוטלה"
+
+[server.pv.mutes.durations]
+days = "למשך %s ימים"
+hours = "למשך %s שעות"
+minutes = "למשך %s דקות"
+seconds = "למשך %s שניות"
+weeks = "למשך %s שבועות"

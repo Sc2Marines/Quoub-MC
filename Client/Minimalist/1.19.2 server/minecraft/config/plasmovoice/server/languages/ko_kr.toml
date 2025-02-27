@@ -1,0 +1,47 @@
+[server.pv.error]
+mod_missing_kick_message = "죄송하지만, 이 서버를 플레이 하려면 Plasmo Voice 모드를 설치하셔야 합니다.\n다운로드: https://modrinth.com/plugin/plasmo-voice"
+player_not_found = "플레이어를 찾지 못했습니다"
+version_not_supported = "죄송하지만, 설치하신 Plasmo Voice의 버전은 이 서버에서 지원되지 않습니다. %s"
+player_only_command = "이 명령어는 플레이어만 사용할 수 있습니다."
+version_not_supported_click = "지원되는 버전 다운로드"
+no_permissions = "&c죄송하지만, 이 명령어를 실행할 권한이 없습니다. 이것이 오류라고 생각된다면 서버 관리자에게 문의하세요."
+version_not_supported_hover = "%s"
+[server.pv.mutes]
+unmuted = "당신의 뮤트가 해제되었습니다."
+empty_reason = "지정되지 않음"
+permanently_muted = "당신은 영구적으로 뮤트되었습니다. 사유: %s"
+temporarily_muted = "당신은 %1$s 동안 뮤트되었습니다. 사유: %2$s"
+
+[server.pv.mutes.durations]
+hours = "%s시간 동안"
+seconds = "%s초 동안"
+weeks = "%s주 동안"
+minutes = "%s분 동안"
+days = "%s일 동안"
+[server.pv.command.mute_list]
+expiration_time = "HH:mm:ss"
+never_expires = "영원히"
+expiration_date = "yyyy.MM.dd"
+empty = "아무 플레이어도 뮤트되지 않았습니다"
+entry_muted_by = "%1$s, %2$s에 의해 뮤트됨. 만료 기간: %3$s. 사유: %4$s"
+entry = "%1$s, 만료 기간: %2$s. 사유: %3$s"
+header = "뮤트된 플레이어들:"
+expire_at = "%2$s에 %1$s"
+[server.pv.command.mute]
+already_muted = "%s(은)는 이미 뮤트 되어 있습니다."
+usage = "사용법: /vmute <플레이어> [기간] [사유]"
+permanently_muted = "%1$s(을)를 영구적으로 뮤트했습니다. 사유: %2$s"
+temporarily_muted = "%1$s(을)를 %2$s 뮤트했습니다. 사유: %3$s"
+[server.pv.command.list]
+message = "클라이언트 (%1$s/%2$s): %3$s"
+empty = "Plasmo Voice가 설치된 플레이어가 없습니다"
+[server.pv.command.reconnect]
+message = "재접속 패킷 전송됨"
+[server.pv.command.reload]
+message = "설정 리로드됨"
+[server.pv.command.unmute]
+unmuted = "%s의 뮤트를 해제했습니다."
+usage = "사용법: /vunmute <플레이어>"
+not_muted = "%s(은)는 뮤트되어있지 않습니다."
+[client.pv.activation]
+proximity = "근거리"

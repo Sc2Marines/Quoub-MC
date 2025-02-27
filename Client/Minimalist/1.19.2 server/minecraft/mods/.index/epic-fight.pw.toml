@@ -1,0 +1,16 @@
+filename = 'epicfight-forge-19.5.26-1.19.2.jar'
+name = 'Epic Fight'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '104750bf37abc29515b97a4c30b98316c1b6dabb6f29c4ea287984ae5cafb740b5ea7ff018e6cc851b1b6ac71d326dab71cd8f57fb1497fb496f65e0f47b20c8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vu3NZ5Ma/versions/UICaPHaU/epicfight-forge-19.5.26-1.19.2.jar'
+
+[update.modrinth]
+mod-id = 'vu3NZ5Ma'
+version = 'UICaPHaU'

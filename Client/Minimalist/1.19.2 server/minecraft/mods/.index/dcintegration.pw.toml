@@ -1,0 +1,16 @@
+filename = 'dcintegration-forge-3.0.5-1.19.2.jar'
+name = 'Discord Integration'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '3693c6c6d0c573dbaaa6e498e1832d71075491f267ef9b93d27a9a52bc915681741fdd4362b6f0bcccfedd3da2c92f78992dd4c939ce37d9c9feabf9e1230c1a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rbJ7eS5V/versions/HS7VfcdI/dcintegration-forge-3.0.5-1.19.2.jar'
+
+[update.modrinth]
+mod-id = 'rbJ7eS5V'
+version = 'HS7VfcdI'

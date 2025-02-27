@@ -1,0 +1,7 @@
+# Maximum priority distance
+max_distance = 128
+# Default priority distance
+default_distance = 48
+activation_weight = 10
+sourceline_weight = 10
+activation_stereo_support = false

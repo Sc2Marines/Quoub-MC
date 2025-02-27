@@ -1,0 +1,33 @@
+%YAML 1.1
+---
+worlds:
+-   sealevel: 63
+    nether: false
+    miny: 0
+    name: DIM1
+    the_end: true
+    title: DIM1
+    height: 256
+-   sealevel: 63
+    nether: true
+    miny: 0
+    name: DIM-1
+    the_end: false
+    title: DIM-1
+    height: 256
+-   sealevel: 63
+    nether: false
+    miny: -64
+    name: New World
+    the_end: false
+    title: New World
+    height: 384
+-   sealevel: 63
+    nether: false
+    miny: 0
+    name: deeperdarker_otherside
+    the_end: false
+    title: deeperdarker_otherside
+    height: 128
+useSaveFolderAsName: true
+maxWorldHeight: 320

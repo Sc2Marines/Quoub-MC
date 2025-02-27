@@ -1,0 +1,5 @@
+activation_weight = 10
+sourceline_weight = 10
+default_group_name_format = "%player%'s group"
+minimum_name_length = 3
+maximum_name_length = 32

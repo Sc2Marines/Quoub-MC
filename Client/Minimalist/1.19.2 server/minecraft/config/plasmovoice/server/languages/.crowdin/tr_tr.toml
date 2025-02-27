@@ -1,0 +1,14 @@
+[server.pv.error]
+mod_missing_kick_message = """
+Üzgünüz, bu sunucuda oynamak için Plasmo Voice modunu yüklemeniz gerekiyor.
+Buradan indirin: https://modrinth.com/plugin/plasmo-voice"""
+no_permissions = "Üzgünüm, ancak bu komutu gerçekleştirmek için izniniz yok. Bunun hatalı olduğunu düşünüyorsanız lütfen sunucu yöneticileriyle iletişime geçin."
+player_not_found = "Öyle bir oyuncu yok"
+player_only_command = "Bu komutu yalnızca oyuncu çalıştırabilir"
+version_not_supported = "Üzgünüz, Plasmo Voice sürümünüz bu sunucuda desteklenmiyor. %s"
+version_not_supported_click = "Desteklenen sürümü indirin"
+version_not_supported_hover = "%s"
+
+[server.pv.mutes]
+empty_reason = "belirtilmemiş"
+temporarily_muted = "Sesiniz moderatör tarafından devre dışı bırakıldı: %1$s. Sebep: %2$s"

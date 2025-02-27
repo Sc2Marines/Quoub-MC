@@ -1,0 +1,47 @@
+[server.pv.error]
+mod_missing_kick_message = "Desculpe, você precisa instalar o Plasmo Voice mod para jogar neste servidor.\nBaixe aqui: https://modrinth.com/plugin/plasmo-voice"
+player_not_found = "Jogador não encontrado"
+version_not_supported = "Desculpe, sua versão do Plasmo Voice não é suportada neste servidor. %s"
+player_only_command = "&cApenas jogadores podem usar esse comando"
+version_not_supported_click = "Baixar versão suportada"
+no_permissions = "&cDesculpe, mas você não tem permissão para executar este comando. Por favor contate os administradores do servidor se você acredita que isto é um erro."
+version_not_supported_hover = "%s"
+[server.pv.mutes]
+unmuted = "Você foi desmutado"
+empty_reason = "não especificado"
+permanently_muted = "Você foi silenciado permanentemente. Motivo: %s"
+temporarily_muted = "Você foi silenciado %1$s. Motivo: %2$s"
+
+[server.pv.mutes.durations]
+hours = "por %s h"
+seconds = "por %s seg"
+weeks = "para %s sem"
+minutes = "por %s min"
+days = "por %s d"
+[server.pv.command.mute_list]
+expiration_time = "HH:mm:ss"
+never_expires = "nunca"
+expiration_date = "dd/MM/yyyy"
+empty = "Nenhum jogador está silenciado"
+entry_muted_by = "%1$s silenciado por %2$s, expira em %3$s. Motivo: %4$s"
+entry = "%1$s, expira em: %2$s. Motivo: %3$s"
+header = "Jogadores silenciados:"
+expire_at = "%1$s em %2$s"
+[server.pv.command.mute]
+already_muted = "%s já está silenciado"
+usage = "Uso: /vmute <player> [duration] [reason]"
+permanently_muted = "%1$s está silenciado permanentemente. Motivo: %2$s"
+temporarily_muted = "Silenciado %1$s %2$s. Motivo: %3$s"
+[server.pv.command.list]
+message = "Clientes (%1$s/%2$s): %3$s"
+empty = "nenhum jogador com Plasmo Voice instalado"
+[server.pv.command.reconnect]
+message = "Pacote de reconexão enviado"
+[server.pv.command.reload]
+message = "Configuração recarregada"
+[server.pv.command.unmute]
+unmuted = "Desmutou %s"
+usage = "Uso: /vmute <player>"
+not_muted = "%s não está silenciado"
+[client.pv.activation]
+proximity = "Proximidade"

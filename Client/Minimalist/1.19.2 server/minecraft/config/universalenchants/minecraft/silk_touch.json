@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger"
+  ],
+  "incompatible": [
+    "minecraft:looting",
+    "spartanweaponry:lucky_throw",
+    "minecraft:fortune",
+    "minecraft:luck_of_the_sea"
+  ]
+}

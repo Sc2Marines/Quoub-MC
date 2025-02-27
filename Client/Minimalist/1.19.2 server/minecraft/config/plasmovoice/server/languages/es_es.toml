@@ -1,0 +1,47 @@
+[server.pv.error]
+mod_missing_kick_message = "Lo sentimos, necesitas instalar el mod Plasmo Voice para jugar en este servidor.\nDescárgalo aquí: https://modrinth.com/plugin/plasmo-voice"
+player_not_found = "Jugador no encontrado"
+version_not_supported = "Lo sentimos, tu versión de Plasmo Voice no es compatible con este servidor. %s"
+player_only_command = "&cSolo jugadores pueden ejecutar este comando"
+version_not_supported_click = "Descargar versión compatible"
+no_permissions = "&cLo siento, pero no tienes permiso para ejecutar este comando. Por favor, ponte en contacto con un administrador si crees que esto es un error."
+version_not_supported_hover = "%s"
+[server.pv.mutes]
+unmuted = "Ya no estás silenciado"
+empty_reason = "Sin especificar"
+permanently_muted = "Has sido silenciado de forma permanente. Motivo: %s"
+temporarily_muted = "Has sido silenciado %1$s. Motivo: %2$s"
+
+[server.pv.mutes.durations]
+hours = "durante %s h"
+seconds = "durante %s seg"
+weeks = "durante %s sem"
+minutes = "durante %s min"
+days = "durante %s d"
+[server.pv.command.mute_list]
+expiration_time = "HH:mm:ss"
+never_expires = "Nunca"
+expiration_date = "dd/MM/yyyy"
+empty = "No hay jugadores silenciados"
+entry_muted_by = "%1$s fue silenciado por %2$s, expira: %3$s. Motivo: %4$s"
+entry = "%1$s, expira: %2$s. Motivo: %3$s"
+header = "Jugadores silenciados:"
+expire_at = "%1$s en %2$s"
+[server.pv.command.mute]
+already_muted = "%s ya se encuentra silenciado."
+usage = "Uso correcto: /vmute <player> [duration] [reason]"
+permanently_muted = "%1$s ha sido silenciado permanentemente. Motivo: %2$s"
+temporarily_muted = "%1$s ha sido silenciado %2$s. Motivo: %3$s"
+[server.pv.command.list]
+message = "Clientes (%1$s/%2$s): %3$s"
+empty = "No hay jugadores con Plasmo Voice instalado."
+[server.pv.command.reconnect]
+message = "Paquete de reconexión enviado."
+[server.pv.command.reload]
+message = "Configuración Recargada."
+[server.pv.command.unmute]
+unmuted = "%s ya no está silenciado."
+usage = "Uso correcto: /vunmute <player>"
+not_muted = "%s no se encuentra silenciado."
+[client.pv.activation]
+proximity = "Proximidad"

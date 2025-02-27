@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "dungeons_plus:warped_axe"
+  ],
+  "incompatible": [
+    "minecraft:smite",
+    "minecraft:bane_of_arthropods",
+    "minecraft:impaling"
+  ]
+}

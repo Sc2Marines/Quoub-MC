@@ -1,0 +1,14 @@
+[client.pv.activation]
+broadcast = "방송"
+
+[server.pv.addon.broadcast]
+broadcasting_specific = "%s 에 방송중"
+broadcasting_wide = "%s 전체에 방송중"
+
+[server.pv.addon.broadcast.command]
+range_set = "방송을 %d 거리 내로 설정"
+range_usage = "사용법: /vrobadcast range <number greater than 0>"
+server_set = "방송을 서버로 설정"
+usage = "사용법: /vbroadcast <range|server|world> <거리|월드 이름>"
+world_set = "방송을 %s 월드로 설정"
+world_usage = "사용법: /vbroadcast world <월드 이름>"

@@ -1,0 +1,7 @@
+# Available values:
+# ACTION_BAR - show current broadcast-wide in action bar
+# CHAT - show current broadcast-wide in chat
+# HIDDEN - don't show current broadcast-wide
+show_current_broadcast_wide = "ACTION_BAR"
+activation_weight = 12
+source_line_weight = 12

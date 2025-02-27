@@ -1,0 +1,16 @@
+filename = 'dungeons-and-taverns-2.0.2.jar'
+name = 'Dungeons and Taverns'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2', '1.19.3', '1.19.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7121e9fd8b9b734ce5dbb6f317645ddd57a84ff297f9d5a7481db2b2a690e67388bbb5d5de53084e717982d405837ae25a0ce51b4435c67230967724069bd63f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tpehi7ww/versions/WfuA1Ai8/dungeons-and-taverns-2.0.2.jar'
+
+[update.modrinth]
+mod-id = 'tpehi7ww'
+version = 'WfuA1Ai8'

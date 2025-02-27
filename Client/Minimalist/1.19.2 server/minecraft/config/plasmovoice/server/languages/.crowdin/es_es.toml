@@ -1,0 +1,57 @@
+[client.pv.activation]
+proximity = "Proximidad"
+
+[server.pv.command.list]
+empty = "No hay jugadores con Plasmo Voice instalado."
+message = "Clientes (%1$s/%2$s): %3$s"
+
+[server.pv.command.mute]
+already_muted = "%s ya se encuentra silenciado."
+permanently_muted = "%1$s ha sido silenciado permanentemente. Motivo: %2$s"
+temporarily_muted = "%1$s ha sido silenciado %2$s. Motivo: %3$s"
+usage = "Uso correcto: /vmute <player> [duration] [reason]"
+
+[server.pv.command.mute_list]
+empty = "No hay jugadores silenciados"
+entry = "%1$s, expira: %2$s. Motivo: %3$s"
+entry_muted_by = "%1$s fue silenciado por %2$s, expira: %3$s. Motivo: %4$s"
+expiration_date = "dd/MM/yyyy"
+expiration_time = "HH:mm:ss"
+expire_at = "%1$s en %2$s"
+header = "Jugadores silenciados:"
+never_expires = "Nunca"
+
+[server.pv.command.reconnect]
+message = "Paquete de reconexión enviado."
+
+[server.pv.command.reload]
+message = "Configuración Recargada."
+
+[server.pv.command.unmute]
+not_muted = "%s no se encuentra silenciado."
+unmuted = "%s ya no está silenciado."
+usage = "Uso correcto: /vunmute <player>"
+
+[server.pv.error]
+mod_missing_kick_message = """
+Lo sentimos, necesitas instalar el mod Plasmo Voice para jugar en este servidor.
+Descárgalo aquí: https://modrinth.com/plugin/plasmo-voice"""
+no_permissions = "&cLo siento, pero no tienes permiso para ejecutar este comando. Por favor, ponte en contacto con un administrador si crees que esto es un error."
+player_not_found = "Jugador no encontrado"
+player_only_command = "&cSolo jugadores pueden ejecutar este comando"
+version_not_supported = "Lo sentimos, tu versión de Plasmo Voice no es compatible con este servidor. %s"
+version_not_supported_click = "Descargar versión compatible"
+version_not_supported_hover = "%s"
+
+[server.pv.mutes]
+empty_reason = "Sin especificar"
+permanently_muted = "Has sido silenciado de forma permanente. Motivo: %s"
+temporarily_muted = "Has sido silenciado %1$s. Motivo: %2$s"
+unmuted = "Ya no estás silenciado"
+
+[server.pv.mutes.durations]
+days = "durante %s d"
+hours = "durante %s h"
+minutes = "durante %s min"
+seconds = "durante %s seg"
+weeks = "durante %s sem"
