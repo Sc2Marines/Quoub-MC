@@ -1,0 +1,16 @@
+filename = "Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.1.6.jar"
+name = "Oh The Biomes You'll Go"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e2552efe135026b2312755cf6b527b7281a5df294ee4a565d91504655c0a9866a892a7cfd5d01171f3713b00bf84cddcfc6b93b8d615c14630b6eb5513f7d4f4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uE1WpIAk/versions/ImjAT2Uf/Oh_The_Biomes_You%27ll_Go-forge-1.19.2-2.0.1.6.jar'
+
+[update.modrinth]
+mod-id = 'uE1WpIAk'
+version = 'ImjAT2Uf'

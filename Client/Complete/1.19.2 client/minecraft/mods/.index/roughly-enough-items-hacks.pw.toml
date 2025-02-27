@@ -1,0 +1,16 @@
+filename = 'REIPluginCompatibilities-forge-9.0.90.jar'
+name = 'REI Plugin Compatibilities'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e9974f66cf5f7e19677cac757e45b8a03efdcb5baa913dbc861828f4ece74ea3228dd0be6b7a6ba1477586098a461fbda4de96f7f12c380aec31b77d2c55180d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1PfY6b5p/versions/VRug9EYM/REIPluginCompatibilities-forge-9.0.90.jar'
+
+[update.modrinth]
+mod-id = '1PfY6b5p'
+version = 'VRug9EYM'

@@ -1,0 +1,16 @@
+filename = 'shulkerboxtooltip-forge-3.2.2+1.19.2.jar'
+name = 'Shulker Box Tooltip'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '13b6404f26a66a76b3512f35a1f66da46e1f4d0969368c7c9fb643de6db8d77edfbffab7a2d8dfcc731f0536e3fda9e50fcafbed1acc8318a3a1ff2f21b24ffb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2M01OLQq/versions/xA1gdRlk/shulkerboxtooltip-forge-3.2.2%2B1.19.2.jar'
+
+[update.modrinth]
+mod-id = '2M01OLQq'
+version = 'xA1gdRlk'

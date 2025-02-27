@@ -1,0 +1,16 @@
+filename = 'GeckoLibOculusCompat-Forge-1.0.1.jar'
+name = 'Iris/Oculus & GeckoLib Compat'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2', '1.19.2', '1.19.3', '1.19.4', '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6', '1.21' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '12c17477ad82bad2d80348732ee1e0d19cf1b68ca64527a251af46e664a8a5473bfba4262441d5bb0b5ff2b5f515df4387d4fce327d5906e3c3d073eb9bd9652'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TbriQCWD/versions/uWXuMaW4/GeckoLibOculusCompat-Forge-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'TbriQCWD'
+version = 'uWXuMaW4'

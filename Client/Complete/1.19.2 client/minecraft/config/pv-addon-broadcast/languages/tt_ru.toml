@@ -1,0 +1,13 @@
+[server.pv.addon.broadcast]
+broadcasting_specific = "%s каналында тапшыру"
+broadcasting_wide = "Бөтен %s каналында тапшыру"
+
+[server.pv.addon.broadcast.command]
+world_set = "%s киңлегендә тапшыру урнаштырылды"
+world_usage = "Кулланылу: /vbroadcast world <дөнья исемнәре>"
+usage = "Кулланылу: /vbroadcast <range|server|world> <ара|дөнья исемнәре>"
+server_set = "Бөтен серверда тапшыру урнаштырылды"
+range_set = "%d радиуста тапшыру урнаштырылды"
+range_usage = "Кулланылу: /vbroadcast range <0-га артыграк сан>"
+[client.pv.activation]
+broadcast = "Тапшыру"

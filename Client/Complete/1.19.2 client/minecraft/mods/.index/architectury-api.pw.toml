@@ -1,0 +1,16 @@
+filename = 'architectury-6.6.92-forge.jar'
+name = 'Architectury API'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1c8c33cb52713f1aa20a68f844a8dc11eaf887c2b401f9a336054cfaee84d5e4fae4610aae342b75624bd33ad4b6a868a62f470144bfaf3fc9b78dd273700b34'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lhGA9TYQ/versions/96L7fC9l/architectury-6.6.92-forge.jar'
+
+[update.modrinth]
+mod-id = 'lhGA9TYQ'
+version = '96L7fC9l'

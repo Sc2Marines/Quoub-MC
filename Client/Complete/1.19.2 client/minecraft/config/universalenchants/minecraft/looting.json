@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "$minecraft:universal_enchants_axe",
+    "$minecraft:trident",
+    "$minecraft:bow",
+    "$minecraft:crossbow"
+  ],
+  "incompatible": [
+    "minecraft:silk_touch"
+  ]
+}

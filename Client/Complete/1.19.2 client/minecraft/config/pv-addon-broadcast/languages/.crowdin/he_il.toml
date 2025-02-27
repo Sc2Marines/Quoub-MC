@@ -1,0 +1,14 @@
+[client.pv.activation]
+broadcast = "שידור"
+
+[server.pv.addon.broadcast]
+broadcasting_specific = "משדר ל-%s"
+broadcasting_wide = "משדר ל %s-רחב"
+
+[server.pv.addon.broadcast.command]
+range_set = "הגדר שידור עם מרחק %d"
+range_usage = "שימוש: <vbroadcast range <number greater than 0/"
+server_set = "הגדר שידור עם מצב Server"
+usage = "שימוש: <vbroadcast <range|server|world> <range|world names/"
+world_set = "הגדר שידור עם מצב World ל-%s"
+world_usage = "שימוש: <vbroadcast world <world names/"

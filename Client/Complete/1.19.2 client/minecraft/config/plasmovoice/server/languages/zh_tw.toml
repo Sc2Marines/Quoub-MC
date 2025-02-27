@@ -1,0 +1,47 @@
+[server.pv.error]
+mod_missing_kick_message = "抱歉，你需要安裝 Plasmo Voice 模組才能在此伺服器上遊玩。\n在此處下載：https://modrinth.com/plugin/plasmo-voice"
+player_not_found = "未找到玩家"
+version_not_supported = "抱歉，伺服器不支援你的 Plasmo Voice 版本。%s"
+player_only_command = "僅玩家可執行此指令"
+version_not_supported_click = "下載支援的版本"
+no_permissions = "&c抱歉，你沒有執行此指令的權限。如果你認為有誤，請聯繫伺服器管理員。"
+version_not_supported_hover = "%s"
+[server.pv.mutes]
+unmuted = "你被解除禁言"
+empty_reason = "未指定"
+permanently_muted = "你被永久禁言。原因：%s"
+temporarily_muted = "你被禁言%1$s。原因：%2$s"
+
+[server.pv.mutes.durations]
+hours = " %s 小時"
+seconds = " %s 秒鐘"
+weeks = " %s 星期"
+minutes = " %s 分鐘"
+days = " %s 天"
+[server.pv.command.mute_list]
+expiration_time = "HH:mm:ss"
+never_expires = "永不"
+expiration_date = "yyyy.MM.dd"
+empty = "無已禁言玩家"
+entry_muted_by = "%1$s 被 %2$s 禁言，解除時間：%3$s。原因：%4$s"
+entry = "%1$s，解除時間：%2$s。原因：%3$s"
+header = "已禁言玩家："
+expire_at = "%1$s %2$s"
+[server.pv.command.mute]
+already_muted = "%s 已被禁言"
+usage = "用法：/vmute <玩家> [時長] [原因]"
+permanently_muted = "%1$s 被永久禁言。原因：%2$s"
+temporarily_muted = "已禁言 %1$s %2$s。原因：%3$s"
+[server.pv.command.list]
+message = "用戶端（%1$s / %2$s）：%3$s"
+empty = "無安裝 Plasmo Voice 的玩家"
+[server.pv.command.reconnect]
+message = "已發送重新連接數據包"
+[server.pv.command.reload]
+message = "已重新載入設定檔"
+[server.pv.command.unmute]
+unmuted = "已解除禁言 %s"
+usage = "用法：/vunmute <玩家>"
+not_muted = "%s 未被禁言"
+[client.pv.activation]
+proximity = "附近"

@@ -1,0 +1,16 @@
+filename = 'villagernames-1.19.2-7.3.jar'
+name = 'Villager Names'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cd6b584f5ff808ba90a1beeb0c88162e18598c7aa0f35059f8b36091c9f4a7cf5c77faf8eca75ca732ab0509fa781aed764ac3da6d29b55d7cbb1556a584602e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gqRXDo8B/versions/l7FEhHcU/villagernames-1.19.2-7.3.jar'
+
+[update.modrinth]
+mod-id = 'gqRXDo8B'
+version = 'l7FEhHcU'

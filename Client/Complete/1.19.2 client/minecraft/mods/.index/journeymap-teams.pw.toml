@@ -1,0 +1,16 @@
+filename = 'JourneyMap-Teams-forge-1.19.2-1.0.2.jar'
+name = 'JourneyMap Teams'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6a2c18f10654dfe43d69c2beec8360b83b21aed23d78b52eb961a7ff2e5ab265f941733d59aebf13231932c10ef017e035a292e9187f0c56ed41b542177133e6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/EV5wjtvP/versions/xl4bszuY/JourneyMap-Teams-forge-1.19.2-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'EV5wjtvP'
+version = 'xl4bszuY'

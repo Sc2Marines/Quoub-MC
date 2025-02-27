@@ -1,0 +1,16 @@
+filename = 'letmedespawn-forge-1.3.2b.jar'
+name = 'Let Me Despawn'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2', '1.19.3', '1.19.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1bc096149426e4af6f7d64fce20089f20e068ac74025b1df515b01c89fa91b622c82b5f518c0465cde1bdafe7b33da2c5259720f061d8015e97ce1565ecaf7e3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vE2FN5qn/versions/ILDzAkCA/letmedespawn-forge-1.3.2b.jar'
+
+[update.modrinth]
+mod-id = 'vE2FN5qn'
+version = 'ILDzAkCA'

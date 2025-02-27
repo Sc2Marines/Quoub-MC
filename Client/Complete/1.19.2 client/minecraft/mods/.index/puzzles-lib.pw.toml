@@ -1,0 +1,16 @@
+filename = 'PuzzlesLib-v4.4.3-1.19.2-Forge.jar'
+name = 'Puzzles Lib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a17fae22581d7a2c6947ba6fc58b38f34197e22aec430dbaa6eee7104cf891b9e9abbea5a322c04b1f3f1df04fa7462f603ca5c2d7ad3657198cc3989fda7bd2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QAGBst4M/versions/UbCrBSit/PuzzlesLib-v4.4.3-1.19.2-Forge.jar'
+
+[update.modrinth]
+mod-id = 'QAGBst4M'
+version = 'UbCrBSit'

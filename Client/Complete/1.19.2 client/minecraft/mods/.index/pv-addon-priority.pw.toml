@@ -1,0 +1,35 @@
+filename = 'pv-addon-priority-1.1.0.jar'
+name = 'pv-addon-priority'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.16.5',
+    '1.17.1',
+    '1.18.2',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4'
+]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = '286ca1e7b8e236adc31bcacffd9968ef15ae52c998d436a8e6e1cb33d3831867c50eab26390d1e308fd25242096049b5b8e69aa016c9580a3d9b85d38d1530ee'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DoKOaUOC/versions/xPHUGv4E/pv-addon-priority-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'DoKOaUOC'
+version = 'xPHUGv4E'

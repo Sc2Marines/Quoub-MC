@@ -1,0 +1,14 @@
+[client.pv.activation]
+broadcast = "廣播"
+
+[server.pv.addon.broadcast]
+broadcasting_specific = "向 %s 廣播"
+broadcasting_wide = "向 %s 範圍廣播"
+
+[server.pv.addon.broadcast.command]
+range_set = "設置廣播範圍為 %d"
+range_usage = "用法：/vbroadcast range <大於 0 的數字>"
+server_set = "設置廣播為伺服器模式"
+usage = "用法：/vbroadcast <range|server|world> <範圍|世界名稱>"
+world_set = "設置廣播為向 %s 廣播的世界模式"
+world_usage = "用法：/vbroadcast world <世界名稱>"

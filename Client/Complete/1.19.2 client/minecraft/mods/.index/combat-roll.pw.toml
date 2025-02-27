@@ -1,0 +1,16 @@
+filename = 'combatroll-forge-1.1.5+1.19.jar'
+name = 'Combat Roll'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '4ed2af2542902fc8134ff9629f879a455d14f96d4f287d19d8849e18806c124522aa5e37b0349f9eee5ea7c3371c43478f0eb0eeeff285868b4ff4122cad5fbf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wGKYL7st/versions/vdae5kTA/combatroll-forge-1.1.5%2B1.19.jar'
+
+[update.modrinth]
+mod-id = 'wGKYL7st'
+version = 'vdae5kTA'

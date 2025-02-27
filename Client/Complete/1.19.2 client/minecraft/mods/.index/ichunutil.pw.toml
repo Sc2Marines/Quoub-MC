@@ -1,0 +1,16 @@
+filename = 'iChunUtil-1.19.2-Forge-1.0.3.jar'
+name = 'iChunUtil'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '789765f47256e9ea614b9c643c6b65535da78e28d13a50afedcf69831fd9a1bb48d96817acd0ca51e440d92d8b0bb7b9f6d250ab5f53df0ff9990a5f160a187e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/W6ROj0Hl/versions/jybCUL3J/iChunUtil-1.19.2-Forge-1.0.3.jar'
+
+[update.modrinth]
+mod-id = 'W6ROj0Hl'
+version = 'jybCUL3J'

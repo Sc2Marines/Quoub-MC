@@ -1,0 +1,16 @@
+filename = 'Highlighter-1.19.1-1.1.4.jar'
+name = 'Item Highlighter'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'be5edaed6c5a3ae6390ee3c26c8ffa8732bf60caa8e97dd4e602f9f17a693d74612ef8f23f9e09de53ad48dbeaa66712f8eb71dd5242986a078a1d2da5fdfdf7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cVNW5lr6/versions/If7Qldnf/Highlighter-1.19.1-1.1.4.jar'
+
+[update.modrinth]
+mod-id = 'cVNW5lr6'
+version = 'If7Qldnf'

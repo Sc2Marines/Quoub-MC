@@ -1,0 +1,16 @@
+filename = 'structure_gel-1.19.2-2.7.3.jar'
+name = 'Structure Gel API'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3d5a2dcef1f41ad5ae814b9a8bfa692c98814eed0adcb5e030c42437edc3b101052401f511c0f2418877abadebe9640c359735955787db511b1ac84587e45407'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/T8TGycIQ/versions/bsBVjIWk/structure_gel-1.19.2-2.7.3.jar'
+
+[update.modrinth]
+mod-id = 'T8TGycIQ'
+version = 'bsBVjIWk'

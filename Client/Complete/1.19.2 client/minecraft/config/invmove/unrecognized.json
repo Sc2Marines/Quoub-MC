@@ -1,0 +1,9 @@
+{
+  "allowMovement": {
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneSelectionScreen": true
+  },
+  "hideBackground": {
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneSettingsScreen": true,
+    "net.blay09.mods.waystones.client.gui.screen.WaystoneSelectionScreen": true
+  }
+}

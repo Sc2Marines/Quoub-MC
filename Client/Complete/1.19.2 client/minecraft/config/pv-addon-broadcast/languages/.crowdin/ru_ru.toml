@@ -1,0 +1,14 @@
+[client.pv.activation]
+broadcast = "Вещание"
+
+[server.pv.addon.broadcast]
+broadcasting_specific = "Вещание на %s"
+broadcasting_wide = "Вещание на %s"
+
+[server.pv.addon.broadcast.command]
+range_set = "Установлено вещание с радиусом: %d"
+range_usage = "Использование: /vbroadcast range <число больше 0>"
+server_set = "Установлено вещание на весь сервер"
+usage = "Использование: /vbroadcast <range|server|world> <расстояние|названия миров>"
+world_set = "Установлено вещание на миры: %s"
+world_usage = "Использование: /vbroadcast world <названия миров>"

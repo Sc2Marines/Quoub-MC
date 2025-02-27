@@ -1,0 +1,16 @@
+filename = 'auto_third_person-forge-1.19.2-2.1.jar'
+name = 'Auto Third Person'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8e27c7ed221750179831eb0ac97a3d1104e25ae6eeb845f1bb901989fb314901e868b0c94c03055dc081963ee4e24d7fb0ff1c93c5ae8ae277c4a688d9b2ba99'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ANu8FMzT/versions/doKcqkNi/auto_third_person-forge-1.19.2-2.1.jar'
+
+[update.modrinth]
+mod-id = 'ANu8FMzT'
+version = 'doKcqkNi'

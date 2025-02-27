@@ -1,0 +1,16 @@
+filename = 'ModernUI-Forge-1.19.2-3.10.1.2-universal.jar'
+name = 'Modern UI'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b0f4f7cd529e2d076c1501805355c79d79422f164efeb3330713ffe3a72c1c6b4ef098766c54673ff06cc0c477d637c361212608f8541d83e4cf93ef7d89d31d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3sjzyvGR/versions/ppM8v5tR/ModernUI-Forge-1.19.2-3.10.1.2-universal.jar'
+
+[update.modrinth]
+mod-id = '3sjzyvGR'
+version = 'ppM8v5tR'

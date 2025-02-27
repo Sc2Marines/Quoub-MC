@@ -1,0 +1,47 @@
+[server.pv.error]
+mod_missing_kick_message = "Гафу итегез, бу серверда уйнау өчен Сезгә Plasmo Voice модын утыртырга кирәк.\nМонда йөкләнегез: https://modrinth.com/plugin/plasmo-voice"
+player_not_found = "Уенчы табылмады"
+version_not_supported = "Гафу итегез, Сезнең Plasmo Voice версиясе бу серверда хупланмый. %s"
+player_only_command = "Уенчы гына бу боерыкны кабыза ала"
+version_not_supported_click = "Хуплана торган версияне йөкләнегез"
+no_permissions = "&cМине гафу итегез, ләкин бу боерыкны өчен кабызу Сезнең хокук юк. Зинһар, сервер администраторлары белән бәйләнегез, әгәр Сез моның хата булуына ышанасыз икән."
+version_not_supported_hover = "%s"
+[server.pv.mutes]
+unmuted = "Сезнең тавыш кушылды"
+empty_reason = "билгеләнмәгән"
+permanently_muted = "Сезнең тавыш бөтенләйгә сүндерелде. Сәбәп: %s"
+temporarily_muted = "Сезнең тавыш %1$s сүндерелде. Сәбәп: %2$s"
+
+[server.pv.mutes.durations]
+hours = "%s сәгатькә"
+seconds = "%s секундка"
+weeks = "%s атнага"
+minutes = "%s минутка"
+days = "%s көнгә"
+[server.pv.command.mute_list]
+expiration_time = "HH:mm:ss"
+never_expires = "беркайчан"
+expiration_date = "dd.MM.yyyy"
+empty = "Тавышсыз уенчылар юк"
+entry_muted_by = "%2$s тарафыннан %1$s сүндерелде. Тәмамлану вакыты: %3$s. Сәбәп: %4$s"
+entry = "%1$s. Тәмамлану вакыты: %2$s. Сәбәп: %3$s"
+header = "Тавышсыз уенчылар:"
+expire_at = "%1$s, %2$s"
+[server.pv.command.mute]
+already_muted = "%s уенчының тавыш сүндерелде инде"
+usage = "Кулланылу: /vmute <уенчы> [озынлык] [сәбәп]"
+permanently_muted = "%1$s уенчының тавышы бөтенләйгә сүндерелде. Сәбәп: %2$s"
+temporarily_muted = "%1$s уенчының тавышы %2$s сүндерелде. Сәбәп: %3$s"
+[server.pv.command.list]
+message = "Клиент (%1$s/%2$s): %3$s"
+empty = "Plasmo Voice модын утыртылган уенчылар юк"
+[server.pv.command.reconnect]
+message = "Яңадан тоташылу җыелмасы җибәрелде"
+[server.pv.command.reload]
+message = "Көйләүләр яңадан йөкләнде"
+[server.pv.command.unmute]
+unmuted = "%s уенчының тавышы кушылды"
+usage = "Кулланылу: /vunmute <уенчы>"
+not_muted = "%s уенчының тавышы сүндерелмәде"
+[client.pv.activation]
+proximity = "Якынлык"

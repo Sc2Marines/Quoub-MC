@@ -1,0 +1,16 @@
+filename = 'spark-1.10.37-forge.jar'
+name = 'spark'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2', '1.19.3', '1.19.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0de99bfe5b31bed11ce2f7e173519a91542069a762b2d657bb1aa6517362255fcb8b8112ef28af5f4640db4d7e4b2618175830224c4d777e69489d8ac3c5d5db'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/l6YH9Als/versions/1dlOe6ez/spark-1.10.37-forge.jar'
+
+[update.modrinth]
+mod-id = 'l6YH9Als'
+version = '1dlOe6ez'

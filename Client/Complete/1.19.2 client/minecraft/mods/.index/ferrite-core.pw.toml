@@ -1,0 +1,16 @@
+filename = 'ferritecore-5.0.3-forge.jar'
+name = 'FerriteCore'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'dd553aad3900f01a9924e906516ec6a74e671319e091bd9b37974e2cf11b00d5cfb1faa6a883c5c413d966696ed5e1d987de3d9cbe862ae9f13f48463d0f16b7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uXXizFIs/versions/CtXsUUz6/ferritecore-5.0.3-forge.jar'
+
+[update.modrinth]
+mod-id = 'uXXizFIs'
+version = 'CtXsUUz6'

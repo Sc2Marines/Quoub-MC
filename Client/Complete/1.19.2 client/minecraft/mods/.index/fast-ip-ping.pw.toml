@@ -1,0 +1,16 @@
+filename = 'fast-ip-ping-v1.0.5-mc1.19.4-forge.jar'
+name = 'Fast IP Ping'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2', '1.19.3', '1.19.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4bc6ec40c8fbb047589f232a11f7f5993bb482fbc001d3f4c253c6e564d578de741967c07c0208559077f7dde623389e2c908b61253ea2c5fc3ad522683ae762'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9mtu0sUO/versions/rWuoGgn4/fast-ip-ping-v1.0.5-mc1.19.4-forge.jar'
+
+[update.modrinth]
+mod-id = '9mtu0sUO'
+version = 'rWuoGgn4'

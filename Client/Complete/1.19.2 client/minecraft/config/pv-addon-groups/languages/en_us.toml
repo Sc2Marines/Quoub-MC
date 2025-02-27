@@ -1,0 +1,114 @@
+[server.pv.addon.groups]
+divider = "&8&m-----------------------------------------------------"
+
+[server.pv.addon.groups.tooltip]
+group_uuid = "Uuid: %s"
+password_protected = "Group is password protected"
+
+[server.pv.addon.groups.format]
+group_name = "&6[%s]"
+players_and_owner = "&7Players: &r%1$s&7, owned by &r%2$s"
+only_players = "&7Players: &r%s"
+invite = "%1$s invited you to join voice group %2$s"
+page = "&7Page &r%s/%s"
+
+[server.pv.addon.groups.icons]
+password_protected = "&6⛨"
+
+[server.pv.addon.groups.error]
+not_in_group = "&cYou need to be in the group to execute this command"
+name_length = "&cGroup name name should be betweeen %1$s and %2$s characters long"
+player_not_found = "&cNo player with such a name"
+unknown_subcommand = "&cUnknown command. Available commands: %s"
+unknown = "&cUnknown error"
+group_not_found = "&cGroup not found"
+uuid_parse = "&cUuid parse error. '%s' is not a Uuid"
+no_permission = "&cNo permission: '%s'"
+
+[server.pv.addon.groups.command.unset.error]
+permissions_not_set = "&cPermissions filter is already empty"
+unknown_flag = "&cCan't unset flag \"%1$s\". Available flags: %2$s"
+usage = "&cUsage: /groups unset <flag>"
+password_not_set = "&cGroup is already not protected with password"
+
+[server.pv.addon.groups.command.ban.error]
+already_banned = "&cPlayer is already banned in the group"
+usage = "&cUsage: /groups ban <player>"
+
+[server.pv.addon.groups.command.leave]
+success = "&aYou left the group"
+
+[server.pv.addon.groups.command.create]
+success = "&aThe group was created:"
+
+[server.pv.addon.groups.command.join]
+success = "&aYou joined the group"
+
+[server.pv.addon.groups.command.join.error]
+already_joined = "&cYou already joined this group"
+usage = "&cUsage: /groups join <group uuid> [password]"
+banned = "&cYou've been banned in this group"
+
+[server.pv.addon.groups.command.set.error]
+unknown_flag = "&cUnknown flag: \"%1$s\". Available flags: %2$s"
+usage = "&cUsage: /groups set <flag> <value>"
+identical_value = "&cThe value is identical to current value"
+
+[server.pv.addon.groups.command.unban.error]
+not_banned = "&cPlayer is not banned in the group"
+usage = "&cUsage: /groups unban <player>"
+
+[server.pv.addon.groups.command.transfer.error]
+already_owner = "&cYou are already the owner of the group"
+usage = "&cUsage: /groups transfer <player>"
+
+[server.pv.addon.groups.command.kick.error]
+not_in_group = "&cPlayer is not in the group"
+usage = "&cUsage: /groups kick <player>"
+
+[server.pv.addon.groups.command.invite]
+success = "&aInvitation sent to %s"
+
+[server.pv.addon.groups.command.invite.error]
+already_joined = "&cPlayer already joined the group"
+usage = "&cUsage: /groups invite <player>"
+banned = "&cPlayer is banned in this group"
+invite_self = "&cYou can't invite yourself"
+
+[server.pv.addon.groups.command.browse.error]
+page_not_found = "&cPage not found"
+no_groups = "&cNo groups. Create groups using \"/groups create\""
+
+[server.pv.addon.groups.button]
+next = "&e>"
+leave = "&c← Leave"
+prev = "&e<"
+join = "&e→ Join"
+invite = "&e✉ Invite"
+
+[server.pv.addon.groups.arg]
+groups_uuid = "<group uuid>"
+password = "<password>"
+permissions = "<list of comma separated permissions>"
+name = "<name>"
+page = "[page]"
+
+[server.pv.addon.groups.notifications]
+player_unbanned = "%s was unbanned in the group"
+player_left = "%s left the group"
+banned = "&cYou've been banned in the group"
+new_owner = "%s is the new owner of the group"
+player_banned = "%s was banned in the group"
+player_kicked = "%s was kicked out of the group"
+persistent_false = "The group is no longer persistent"
+password_changed = "Group password changed"
+kicked = "&cYou've been kicked out of the group"
+persistent_true = "The group is persistent now"
+permissions_unset = "Permissions protection was removed"
+group_deleted = "Group was deleted"
+player_join = "%s joined the group"
+password_unset = "Password protection was removed"
+permissions_changed = "Group permissions changed"
+name_change = "Group name was changed from '%1$s' to '%2$s'"
+[client.pv.activation]
+groups = "Groups"

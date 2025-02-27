@@ -1,0 +1,32 @@
+filename = 'pv-addon-sculk-1.1.0.jar'
+name = 'pv-addon-sculk'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4'
+]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = '24d5ed01c28590a1700979741c98eef98e65062ca2df28052578eee5bddb7d4c61b75345e54c0f872788c2f7f99e3f713894df845479ffcc7fc429283c179852'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7dI2zrDy/versions/HmseAzbt/pv-addon-sculk-1.1.0.jar'
+
+[update.modrinth]
+mod-id = '7dI2zrDy'
+version = 'HmseAzbt'

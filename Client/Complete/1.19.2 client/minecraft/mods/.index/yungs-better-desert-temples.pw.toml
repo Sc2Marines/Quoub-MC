@@ -1,0 +1,16 @@
+filename = 'YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar'
+name = "YUNG's Better Desert Temples"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b50fb2052b410b75321a156cea19edba789fda384bb7d9dbfd3f11f6ad2e8a8ab560541356c0cdf8f13702ebfbf2941741853e522dbad676dbe10cd1b09ed1ed'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XNlO7sBv/versions/4szLNMTj/YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar'
+
+[update.modrinth]
+mod-id = 'XNlO7sBv'
+version = '4szLNMTj'
