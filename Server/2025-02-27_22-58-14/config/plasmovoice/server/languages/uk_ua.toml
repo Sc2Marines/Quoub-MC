@@ -1,0 +1,47 @@
+[server.pv.error]
+mod_missing_kick_message = "Для гри на цьому сервері необхідно встановити мод Plasmo Voice.\nЗавантажте тут: https://modrinth.com/plugin/plasmo-voice"
+player_not_found = "Гравця не знайдено"
+version_not_supported = "Ваша версія Plasmo Voice не підтримується на цьому сервері. %s"
+player_only_command = "Лише гравці можуть використовувати цю команду"
+version_not_supported_click = "Завантажити підтримувану версію"
+no_permissions = "&cНа жаль, ви не маєте дозволу на використання цієї команди. Будь ласка, зверніться до адміністраторів серверу, якщо ви вважаєте, що це помилка."
+version_not_supported_hover = "%s"
+[server.pv.mutes]
+unmuted = "Тепер ви можете говорити"
+empty_reason = "не вказана"
+permanently_muted = "Ви назавжди приглушені. Причина: %s"
+temporarily_muted = "Ви приглушені на %1$s. Причина: %2$s"
+
+[server.pv.mutes.durations]
+hours = "на %s годин"
+seconds = "на %s секунд"
+weeks = "на %s тижнів"
+minutes = "на %s хвилин"
+days = "на %s днів"
+[server.pv.command.mute_list]
+expiration_time = "ЧЧ:ХХ:СС"
+never_expires = "ніколи"
+expiration_date = "РРРР.ММ.ДД"
+empty = "Приглушених гравців немає"
+entry_muted_by = "%1$s приглушен %2$s, закінчується: %3$s. Причина: %4$s"
+entry = "%1$s, закінчується: %2$s. Причина: %3$s"
+header = "Приглушені гравці:"
+expire_at = "%1$s в %2$s"
+[server.pv.command.mute]
+already_muted = "%s вже заглушено"
+usage = "Використовуйте: /vmute <гравець> [тривалість] [причина]"
+permanently_muted = "%1$s приглушено назавжди. Причина: %2$s"
+temporarily_muted = "Заглушено %1$s %2$s. Причина: %3$s"
+[server.pv.command.list]
+message = "Користувачі: (%1$s/%2$s): %3$s"
+empty = "гравців з Plasmo Voice немає"
+[server.pv.command.reconnect]
+message = "Пакет повторного підключення надіслано"
+[server.pv.command.reload]
+message = "Конфігурація оновлена"
+[server.pv.command.unmute]
+unmuted = "Розглушення %s"
+usage = "Використовуйте: /vunmute <гравець>"
+not_muted = "%s не заглушений"
+[client.pv.activation]
+proximity = "Наближення"

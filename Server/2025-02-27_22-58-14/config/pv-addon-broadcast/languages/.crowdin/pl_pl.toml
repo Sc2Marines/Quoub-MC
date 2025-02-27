@@ -1,0 +1,14 @@
+[client.pv.activation]
+broadcast = "Nadawanie"
+
+[server.pv.addon.broadcast]
+broadcasting_specific = "Nadawanie do %s"
+broadcasting_wide = "Nadawanie na skalę %s"
+
+[server.pv.addon.broadcast.command]
+range_set = "Ustawiono nadawanie z zasięgiem %d"
+range_usage = "Użycie: /vbroadcast odległość <liczba większa od 0>"
+server_set = "Ustawiono nadawanie z trybem serwera"
+usage = "Użycie: /vbroadcast <odległość|serwer|świat> <odległość|nazwy światów>"
+world_set = "Ustawiono nadawanie z trybem świata na %s"
+world_usage = "Użycie: /vbroadcast świat <nazwy światów>"

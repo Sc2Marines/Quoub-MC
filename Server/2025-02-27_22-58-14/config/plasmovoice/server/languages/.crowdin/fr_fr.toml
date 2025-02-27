@@ -1,0 +1,57 @@
+[client.pv.activation]
+proximity = "Proximité"
+
+[server.pv.command.list]
+empty = "aucun joueur avec Plasmo Voice installé"
+message = "Clients (%1$s/%2$s) : %3$s"
+
+[server.pv.command.mute]
+already_muted = "%s est déjà muet"
+permanently_muted = "%1$s est rendu muet en permanence. Raison : %2$s"
+temporarily_muted = "%1$s rendu muet. Raison : %3$s"
+usage = "Utilisation: /vmute <joueur> [durée] [raison]"
+
+[server.pv.command.mute_list]
+empty = "Aucun joueur n'est muet"
+entry = "%1$s, expire : %2$s. Raison : %3$s"
+entry_muted_by = "%1$s rendu muet par %2$s, expire : %3$s. Raison : %4$s"
+expiration_date = "dd.MM.yyyy"
+expiration_time = "HH:mm:ss"
+expire_at = "%1$s à %2$s"
+header = "Joueurs muets :"
+never_expires = "jamais"
+
+[server.pv.command.reconnect]
+message = "Paquet de reconnexion envoyé"
+
+[server.pv.command.reload]
+message = "Configuration rechargée"
+
+[server.pv.command.unmute]
+not_muted = "%s n'est pas muet"
+unmuted = "%s n'est plus muet."
+usage = "Utilisation : /vunmute <joueur>"
+
+[server.pv.error]
+mod_missing_kick_message = """
+Désolé, vous devez installer le mod Plasmo Voice pour jouer sur ce serveur.
+Télécharger ici : https://modrinth.com/plugin/plasmo-voice"""
+no_permissions = "%cDésolé, mais vous n'êtes pas autorisé à exécuter cette commande. Veuillez contacter les administrateurs du serveur si vous pensez que c'est une erreur."
+player_not_found = "Joueur introuvable"
+player_only_command = "Seuls les joueurs peuvent exécuter cette commande"
+version_not_supported = "Désolé, votre version Plasmo Voice n'est pas prise en charge sur ce serveur. %s"
+version_not_supported_click = "Téléchargez la version supportée"
+version_not_supported_hover = "%s"
+
+[server.pv.mutes]
+empty_reason = "non spécifié"
+permanently_muted = "Vous avez été rendu muet de façon permanente. Raison : %s"
+temporarily_muted = "Vous avez été rendu muet %1$s. Raison : %2$s"
+unmuted = "Vous n'êtes plus muet"
+
+[server.pv.mutes.durations]
+days = "pour %s jours"
+hours = "pour %s heures"
+minutes = "pour %s minutes"
+seconds = "pour %s secondes"
+weeks = "pour %s semaines"

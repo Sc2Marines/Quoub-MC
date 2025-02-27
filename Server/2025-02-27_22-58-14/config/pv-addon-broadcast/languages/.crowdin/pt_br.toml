@@ -1,0 +1,14 @@
+[client.pv.activation]
+broadcast = "Anúncio"
+
+[server.pv.addon.broadcast]
+broadcasting_specific = "Anunciando para %s"
+broadcasting_wide = "Anunciando para %s"
+
+[server.pv.addon.broadcast.command]
+range_set = "Define anúncio com alcance %d"
+range_usage = "Uso: /vbroadcast range <number greater than 0>"
+server_set = "Define anúncio com o modo de servidor"
+usage = "Uso: /vbroadcast <range|server|world> <range|world names>"
+world_set = "Define anúncio com o modo de mundo para %s"
+world_usage = "Uso: /vbroadcast world <world names>"

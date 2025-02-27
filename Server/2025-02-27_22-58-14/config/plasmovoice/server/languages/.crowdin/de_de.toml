@@ -1,0 +1,57 @@
+[client.pv.activation]
+proximity = "Proximity"
+
+[server.pv.command.list]
+empty = "keine Player, die Plasmo Voice installiert haben"
+message = "Clients (%1$s/%2$s): %3$s"
+
+[server.pv.command.mute]
+already_muted = "%s ist bereits stummgeschaltet"
+permanently_muted = "%1$s ist permanent stummgeschaltet. Grund: %2$s"
+temporarily_muted = "%1$s wurde stummgeschaltet %2$s. Grund: %3$s"
+usage = "Verwende: /vmute <player> [duration] [reason]"
+
+[server.pv.command.mute_list]
+empty = "Keine Spieler sind gemutet"
+entry = "%1$s, läuft ab: %2$s. Grund: %3$s"
+entry_muted_by = "%1$s stummgeschaltet von %2$s, läuft ab: %3$s. Grund: %4$s"
+expiration_date = "dd.MM.yyyy"
+expiration_time = "HH:mm:ss"
+expire_at = "%1$s in %2$s"
+header = "Stummgeschaltete Spieler:"
+never_expires = "niemals"
+
+[server.pv.command.reconnect]
+message = "Erneute Verbindung gesendete Pakete"
+
+[server.pv.command.reload]
+message = "Konfig wurde neu geladen"
+
+[server.pv.command.unmute]
+not_muted = "%s ist nicht stummgeschaltet"
+unmuted = "%s wurde entmutet"
+usage = "Verwende: /vunmute <player>"
+
+[server.pv.error]
+mod_missing_kick_message = """
+Entschuldigung, du musst die Plasmo Voice Mod installieren, um auf diesem Server spielen zu können.
+Hierunter kannst du sie herunterladen: https://modrinth.com/plugin/plasmo-voice"""
+no_permissions = "&cEs tut mir leid, aber du bist nicht berechtigt, diesen Befehl auszuführen. Bitte wende dich an die Serveradministratoren, wenn du glaubst, dass dies ein Fehler ist."
+player_not_found = "Spieler wurde nicht gefunden"
+player_only_command = "Nur Spieler können diesen Befehl ausführen"
+version_not_supported = "Entschuldige, deine Plasmo Voice - Version wird auf diesem Server leider nicht unterstützt. %s"
+version_not_supported_click = "Unterstützte Version herunterladen"
+version_not_supported_hover = "%s"
+
+[server.pv.mutes]
+empty_reason = "nicht angegeben"
+permanently_muted = "Du wurdest permanent stummgeschaltet. Grund: %s"
+temporarily_muted = "%1$s du wurdest stummgeschaltet. Grund: %2$s"
+unmuted = "Du wurdest entmutet"
+
+[server.pv.mutes.durations]
+days = "für %s T"
+hours = "für %s Std"
+minutes = "für %s Min"
+seconds = "für %s Sek"
+weeks = "für %s W"

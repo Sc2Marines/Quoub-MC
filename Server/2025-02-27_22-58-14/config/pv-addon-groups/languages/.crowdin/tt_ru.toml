@@ -1,0 +1,115 @@
+[client.pv.activation]
+groups = "Төркемнәр"
+
+[server.pv.addon.groups]
+divider = "&8&m-----------------------------------------------------"
+
+[server.pv.addon.groups.arg]
+groups_uuid = "<төркемнең UUID-ы>"
+name = "<исем>"
+page = "[бит]"
+password = "<серсүз>"
+permissions = "<өтер белән бүленгән хокук исемлеге>"
+
+[server.pv.addon.groups.button]
+invite = "&e✉ Чакыру"
+join = "&e→ Кушылу"
+leave = "&c← Чыгу"
+next = "&e>"
+prev = "&e<"
+
+[server.pv.addon.groups.command.ban.error]
+already_banned = "&cУенчы төркемдә блокланды инде"
+usage = "&cКулланылу: /groups ban <уенчы>"
+
+[server.pv.addon.groups.command.browse.error]
+no_groups = "Төркемнәр юк. «/groups create» боерыгын кулланып, төркемнәрне ясагыз"
+page_not_found = "&cБит табылмады"
+
+[server.pv.addon.groups.command.create]
+success = "&aТөркем ясалды:"
+
+[server.pv.addon.groups.command.invite]
+success = "&a%s уенчыга чакыру җибәрелде"
+
+[server.pv.addon.groups.command.invite.error]
+already_joined = "&cУенчы төркемгә кушылды инде"
+banned = "&cУенчы төркемдә блокланды"
+invite_self = "&cСез үзне чакыра алмыйсыз"
+usage = "&cКулланылу: /groups invite <уенчы>"
+
+[server.pv.addon.groups.command.join]
+success = "&Сез төркемгә кушылды"
+
+[server.pv.addon.groups.command.join.error]
+already_joined = "&Сез төркемгә кушылды инде"
+banned = "&cСез бу төркемдә блокландыгыз"
+usage = "&cКулланылу: /groups join <төркемнең UUID-ы> [серсүз]"
+
+[server.pv.addon.groups.command.kick.error]
+not_in_group = "&cТөркемдә уенчы юк"
+usage = "&cКулланылу: /groups kick <уенчы>"
+
+[server.pv.addon.groups.command.leave]
+success = "&aСез төркемнән чыкты"
+
+[server.pv.addon.groups.command.set.error]
+identical_value = "&cКыйммәт хәзерге кыйммәткә охшаш"
+unknown_flag = "&cБилгесез байрак: «%1$s». Шундый байраклар бар: %2$s"
+usage = "&cКулланылу: /groups set <байрак> <кыйммәт>"
+
+[server.pv.addon.groups.command.transfer.error]
+already_owner = "&cСез төркемнең хуҗасы инде"
+usage = "&cКулланылу: /groups transfer <уенчы>"
+
+[server.pv.addon.groups.command.unban.error]
+not_banned = "&cУенчы төркемдә блокланмады"
+usage = "&cКулланылу: /groups unban <уенчы>"
+
+[server.pv.addon.groups.command.unset.error]
+password_not_set = "&cТөркем серсүз ярдәмендә сакланмады инде"
+permissions_not_set = "&cХокук фильтры буш инде"
+unknown_flag = "&c«%1$s» байрагын бетереп булмый. Шундый байраклар бар: %2$s"
+usage = "&cКулланылу: /groups unset <байрак>"
+
+[server.pv.addon.groups.error]
+group_not_found = "&cТөркем табылмады"
+name_length = "&cТөркем исеме %1$s һәм %2$s символ арасында булырга тиеш"
+no_permission = "&cХокук юк: «%s»"
+not_in_group = "&cБу боерыкны кабызу өчен Сез төркемгә булырга тиеш"
+player_not_found = "&cШундый исемле уенчы юк"
+unknown = "&cБилгесез хата"
+unknown_subcommand = "&cБилгесез боерык. Шундый боерыклар бар: %s"
+uuid_parse = "&cUUID белү хатасы. «%s» UUID түгел"
+
+[server.pv.addon.groups.format]
+group_name = "&6[%s]"
+invite = "%1$s Сезгә %2$s төркеменә чакырды"
+only_players = "&7Уенчылар: &r%s"
+page = "%2$s&7биттән &r%1$s&7бит&r"
+players_and_owner = "&7Уенчы: &r%1$s&7, хуҗа: &r%2$s"
+
+[server.pv.addon.groups.icons]
+password_protected = "&6⛨"
+
+[server.pv.addon.groups.notifications]
+banned = "&cСез төркемдә блокландыгыз"
+group_deleted = "Төркем бетерелде"
+kicked = "&cСез төркемнән чыгарылды"
+name_change = "«%1$s» төркем яңа исеме: «%2$s»"
+new_owner = "%s — төркемнең яңа хуҗасы"
+password_changed = "Төркемнең серсүз үзгәртелде"
+password_unset = "Серсүз ярдәмендә саклау бетерелде"
+permissions_changed = "Төркемнең хокукы үзгәртелде"
+permissions_unset = "Хокук ярдәмендә саклау бетерелде"
+persistent_false = "Төркем даими түгел"
+persistent_true = "Төркем даими хәзер"
+player_banned = "%s төркемдә блокланды"
+player_join = "%s төркемгә кушылды"
+player_kicked = "%s төркемнән чыгарылды"
+player_left = "%s төркемнән чыкты"
+player_unbanned = "%s төркемдә блоктан азат ителде"
+
+[server.pv.addon.groups.tooltip]
+group_uuid = "UUID: %s"
+password_protected = "Төркем серсүз ярдәмендә сакланды"

@@ -1,0 +1,14 @@
+[client.pv.activation]
+broadcast = "Transmisión"
+
+[server.pv.addon.broadcast]
+broadcasting_specific = "Transmitiendo a %s"
+broadcasting_wide = "Transmitiendo a %s-wide"
+
+[server.pv.addon.broadcast.command]
+range_set = "Establecer transmisión con rango %d"
+range_usage = "Uso: /vbroadcast range <number greater than 0>"
+server_set = "Establecer transmisión con el modo servidor"
+usage = "Uso: /vbroadcast <range|server|world> <range|world names>"
+world_set = "Establecer transmisión con el modo mundo a %s"
+world_usage = "Uso correcto: /vbroadcast world <world names>"

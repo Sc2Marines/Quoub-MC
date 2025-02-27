@@ -1,0 +1,13 @@
+[server.pv.addon.broadcast]
+broadcasting_specific = "Broadcasting to %s"
+broadcasting_wide = "Broadcasting to %s-wide"
+
+[server.pv.addon.broadcast.command]
+world_set = "Set broadcast with mode world to %s"
+world_usage = "Usage: /vbroadcast world <world names>"
+usage = "Usage: /vbroadcast <range|server|world> <range|world names>"
+server_set = "Set broadcast with mode server"
+range_set = "Set broadcast with range %d"
+range_usage = "Usage: /vbroadcast range <number greater than 0>"
+[client.pv.activation]
+broadcast = "Broadcast"

@@ -1,0 +1,57 @@
+[client.pv.activation]
+proximity = "Наближення"
+
+[server.pv.command.list]
+empty = "гравців з Plasmo Voice немає"
+message = "Користувачі: (%1$s/%2$s): %3$s"
+
+[server.pv.command.mute]
+already_muted = "%s вже заглушено"
+permanently_muted = "%1$s приглушено назавжди. Причина: %2$s"
+temporarily_muted = "Заглушено %1$s %2$s. Причина: %3$s"
+usage = "Використовуйте: /vmute <гравець> [тривалість] [причина]"
+
+[server.pv.command.mute_list]
+empty = "Приглушених гравців немає"
+entry = "%1$s, закінчується: %2$s. Причина: %3$s"
+entry_muted_by = "%1$s приглушен %2$s, закінчується: %3$s. Причина: %4$s"
+expiration_date = "РРРР.ММ.ДД"
+expiration_time = "ЧЧ:ХХ:СС"
+expire_at = "%1$s в %2$s"
+header = "Приглушені гравці:"
+never_expires = "ніколи"
+
+[server.pv.command.reconnect]
+message = "Пакет повторного підключення надіслано"
+
+[server.pv.command.reload]
+message = "Конфігурація оновлена"
+
+[server.pv.command.unmute]
+not_muted = "%s не заглушений"
+unmuted = "Розглушення %s"
+usage = "Використовуйте: /vunmute <гравець>"
+
+[server.pv.error]
+mod_missing_kick_message = """
+Для гри на цьому сервері необхідно встановити мод Plasmo Voice.
+Завантажте тут: https://modrinth.com/plugin/plasmo-voice"""
+no_permissions = "&cНа жаль, ви не маєте дозволу на використання цієї команди. Будь ласка, зверніться до адміністраторів серверу, якщо ви вважаєте, що це помилка."
+player_not_found = "Гравця не знайдено"
+player_only_command = "Лише гравці можуть використовувати цю команду"
+version_not_supported = "Ваша версія Plasmo Voice не підтримується на цьому сервері. %s"
+version_not_supported_click = "Завантажити підтримувану версію"
+version_not_supported_hover = "%s"
+
+[server.pv.mutes]
+empty_reason = "не вказана"
+permanently_muted = "Ви назавжди приглушені. Причина: %s"
+temporarily_muted = "Ви приглушені на %1$s. Причина: %2$s"
+unmuted = "Тепер ви можете говорити"
+
+[server.pv.mutes.durations]
+days = "на %s днів"
+hours = "на %s годин"
+minutes = "на %s хвилин"
+seconds = "на %s секунд"
+weeks = "на %s тижнів"

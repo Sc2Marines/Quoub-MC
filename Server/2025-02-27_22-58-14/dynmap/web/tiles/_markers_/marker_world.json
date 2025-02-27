@@ -1,0 +1,13 @@
+{"sets": {"minecolonies-colony-markers": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "Colonies","markers": {}
+,"lines": {}
+,"layerprio": 0}
+,"markers": {"hide": false,"circles": {}
+,"areas": {}
+,"label": "Markers","markers": {"_spawn_world": {"markup": false,"x": 0.00,"icon": "world","y": 195.00,"dim": "16x16","z": 0.00,"label": "Spawn"}
+}
+,"lines": {}
+,"layerprio": 0}
+}
+,"timestamp": 1740684699996}

@@ -1,0 +1,97 @@
+[server.pv.addon.groups]
+divider = "&8&m-----------------------------------------------------"
+
+[server.pv.addon.groups.format]
+group_name = "&6[%s]"
+players_and_owner = "&7Jogadores: &r%1$s&7, propriedade de &r%2$s"
+invite = "%1$s convidou você para participar do grupo de voz %2$s"
+only_players = "&7Jogadores: &r%s"
+page = "&7Página &r%s/%s"
+
+[server.pv.addon.groups.tooltip]
+group_uuid = "Uuid: %s"
+password_protected = "O grupo é protegido por senha"
+
+[server.pv.addon.groups.error]
+not_in_group = "&cVocê precisa estar no grupo para executar este comando"
+name_length = "&cNome do grupo deve conter entre %1$s e %2$s caracteres"
+player_not_found = "&cNenhum jogador com esse nome"
+unknown_subcommand = "&cComando desconhecido. Comandos disponíveis: %s"
+unknown = "&cErro desconhecido"
+group_not_found = "&cGrupo não encontrado"
+uuid_parse = "Erro de análise &cUuid. '%s' não é um Uuid"
+no_permission = "&cSem permissão: '%s'"
+
+[server.pv.addon.groups.icons]
+password_protected = "&6⛨"
+
+[server.pv.addon.groups.command.set.error]
+unknown_flag = "&cPropriedade desconhecida: \"%1$s\". Propriedades disponíveis: %2$s"
+usage = "&cUso: /groups set <flag> <value>"
+identical_value = "&cO valor é idêntico ao valor atual"
+
+[server.pv.addon.groups.command.unset.error]
+permissions_not_set = "&cO filtro de permissões já está vazio"
+unknown_flag = "&cNão é possível remover a propriedade \"%1$s\". Propriedades disponíveis: %2$s"
+password_not_set = "&cGrupo já não está protegido com senha"
+usage = "&cUso: /groups unset <flag>"
+
+[server.pv.addon.groups.command.transfer.error]
+already_owner = "&cVocê já é o dono do grupo"
+usage = "&cUso: /groups transfer <player>"
+
+[server.pv.addon.groups.command.leave]
+success = "&aVocê saiu do grupo"
+
+[server.pv.addon.groups.command.create]
+success = "&aO grupo foi criado:"
+
+[server.pv.addon.groups.command.invite]
+success = "&aConvite enviado para %s"
+
+[server.pv.addon.groups.command.invite.error]
+already_joined = "&cJogador já entrou no grupo"
+usage = "&cUso: /groups invite <player>"
+invite_self = "&cVocê não pode convidar a si mesmo"
+
+[server.pv.addon.groups.command.join]
+success = "&aVocê entrou no grupo"
+
+[server.pv.addon.groups.command.join.error]
+already_joined = "&cVocê já entrou neste grupo"
+usage = "&cUso: /groups join <group uuid> [password]"
+
+[server.pv.addon.groups.command.browse.error]
+page_not_found = "&cPágina não encontrada"
+no_groups = "&cNenhum grupo. Crie grupos usando \"/groups create\""
+
+[server.pv.addon.groups.button]
+next = "&e>"
+leave = "&c← Sair"
+prev = "&e<"
+invite = "&e✉ Convite"
+join = "&e→ Entrar"
+
+[server.pv.addon.groups.arg]
+groups_uuid = "<grupo uuid>"
+password = "<senha>"
+permissions = "<lista de permissões>"
+name = "<nome>"
+page = "[page]"
+
+[server.pv.addon.groups.notifications]
+player_left = "%s saiu do grupo"
+new_owner = "%s é o novo dono do grupo"
+persistent_false = "O grupo não é mais persistente"
+player_kicked = "%s foi expulso do grupo"
+password_changed = "Senha do grupo alterada"
+kicked = "&cVocê foi expulso do grupo"
+persistent_true = "O grupo é persistente agora"
+permissions_unset = "A proteção de permissões foi removida"
+group_deleted = "O grupo foi excluído"
+player_join = "%s juntou-se ao grupo"
+password_unset = "Proteção por senha foi removida"
+permissions_changed = "Permissões do grupo alteradas"
+name_change = "Nome do grupo foi alterado de '%1$s' para '%2$s'"
+[client.pv.activation]
+groups = "Grupos"

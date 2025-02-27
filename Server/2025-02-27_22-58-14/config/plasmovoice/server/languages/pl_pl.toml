@@ -1,0 +1,47 @@
+[server.pv.error]
+mod_missing_kick_message = "Przepraszamy, musisz zainstalować modyfikację Plasmo Voice, aby grać na tym serwerze.\nPobierz tutaj: https://modrinth.com/plugin/plasmo-voice"
+player_not_found = "Gracz nie odnaleziony"
+version_not_supported = "Przepraszamy, Twoja wersja Plasmo Voice nie jest wspierana na tym serwerze. %s"
+player_only_command = "Tylko gracze mogą wykonywać to polecenie"
+version_not_supported_click = "Pobierz wspieraną wersję"
+no_permissions = "&cPrzepraszamy, lecz nie posiadasz permisji, aby wykonać to polecenie. Skontaktuj się z administratorami serwera, jeżeli uważasz, że jest to błąd."
+version_not_supported_hover = "%s"
+[server.pv.mutes]
+unmuted = "Zostałeś odciszony"
+empty_reason = "nie określono"
+permanently_muted = "Zostałeś permanentnie wyciszony. Powód %s"
+temporarily_muted = "Zostałeś wyciszony %1$s. Powód: %2$s"
+
+[server.pv.mutes.durations]
+hours = "na %s godz"
+seconds = "na %s s"
+weeks = "na %s tyg"
+minutes = "na %s min"
+days = "na %s d"
+[server.pv.command.mute_list]
+expiration_time = "HH:mm:ss"
+never_expires = "nigdy"
+expiration_date = "dd.MM.yyyy"
+empty = "Żadni gracze nie są wyciszeni"
+entry_muted_by = "%1$s wyciszony przez %2$s, wygasa: %3$s. Powód: %4$s"
+entry = "%1$s, wygasa: %2$s. Powód: %3$s"
+header = "Wyciszeni gracze:"
+expire_at = "%1$s o %2$s"
+[server.pv.command.mute]
+already_muted = "%s jest już wyciszony"
+usage = "Użycie: /vmute <gracz> [długość] [powód]"
+permanently_muted = "%1$s jest permanentnie wyciszony. Powód: %2$s"
+temporarily_muted = "Wyciszono %1$s %2$s. Powód: %3$s"
+[server.pv.command.list]
+message = "Klienci (%1$s/%2$s): %3$s"
+empty = "brak graczy z zainstalowanym Plasmo Voice"
+[server.pv.command.reconnect]
+message = "Pakiety ponownego połączenia wysłane"
+[server.pv.command.reload]
+message = "Przeładowano konfigurację"
+[server.pv.command.unmute]
+unmuted = "Odciszono %s"
+usage = "Użycie: /vunmute <gracz>"
+not_muted = "%s nie jest wyciszony"
+[client.pv.activation]
+proximity = "Zbliżeniowy"
