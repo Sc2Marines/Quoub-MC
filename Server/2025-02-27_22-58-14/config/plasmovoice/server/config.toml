@@ -1,6 +1,6 @@
 # Used to store server-related config file on the client
 # Set it to a single value on different servers if you want them to share config
-server_id = "b9907048-a6f8-476e-a267-6cfdceaa71d6"
+server_id = ""
 default_language = "en_us"
 debug = false
 use_crowdin_translations = true
@@ -8,7 +8,7 @@ check_for_updates = true
 
 [host]
 ip = "0.0.0.0"
-port = 0
+port = 25565
 
 [voice]
 # Supported sample rates:
@@ -26,8 +26,8 @@ client_mod_required_check_timeout_ms = 3000
 client_mod_min_version = "2.0.0"
 
 [voice.proximity]
-distances = [8, 16, 32]
-default_distance = 32
+distances = [32, 64, 128]
+default_distance = 128
 
 [voice.opus]
 # Opus application mode
