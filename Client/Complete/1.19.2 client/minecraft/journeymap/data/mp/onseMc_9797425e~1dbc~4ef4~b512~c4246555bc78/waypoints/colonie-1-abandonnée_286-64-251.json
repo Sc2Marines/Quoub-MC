@@ -1,0 +1,22 @@
+{
+  "id": "colonie-1-abandonnée_286-64-251",
+  "name": "colonie 1 abandonnée",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--6985789-waypoint-icon.png",
+  "x": 286,
+  "y": 64,
+  "z": 251,
+  "r": 149,
+  "g": 103,
+  "b": 195,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

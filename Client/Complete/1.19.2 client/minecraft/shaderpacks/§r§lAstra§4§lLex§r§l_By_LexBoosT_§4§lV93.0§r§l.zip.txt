@@ -1,2 +1,0 @@
-#Thu Feb 27 21:49:56 CET 2025
-MOTION_BLUR=false

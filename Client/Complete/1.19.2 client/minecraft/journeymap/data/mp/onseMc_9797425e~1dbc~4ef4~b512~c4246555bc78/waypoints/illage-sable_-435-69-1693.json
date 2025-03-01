@@ -1,0 +1,22 @@
+{
+  "id": "illage-sable_-435-69-1693",
+  "name": "illage sable",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--13653294-waypoint-icon.png",
+  "x": -435,
+  "y": 69,
+  "z": 1693,
+  "r": 47,
+  "g": 170,
+  "b": 210,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}
