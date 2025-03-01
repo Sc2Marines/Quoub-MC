@@ -1,7 +1,7 @@
 {
   "general": {
     "engines": 0,
-    "volume": 1,
+    "volume": 0.024911031126976013,
     "useSoundMasterSource": false,
     "scanStepAmount": 100
   },

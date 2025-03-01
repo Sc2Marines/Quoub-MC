@@ -2,38 +2,47 @@ debug = false
 disable_crowdin = false
 check_for_updates = true
 
+[activations.d507ae6f-106c-3257-bea1-a1f3de242b7d]
+toggle = false
+type = "INHERIT"
+[activations.4aec07ba-d109-3345-9a0a-92022a116cd0]
+toggle = false
+type = "VOICE"
+[activations.46927964-3207-377a-84d7-26a82d52be1e]
+toggle = false
+type = "INHERIT"
 key_bindings = []
 
 
 [addons.pv-addon-soundphysics]
-mic_reverb = true
+mic_reverb = false
 mic_reverb_volume = 1.0
 enabled = true
 
 [voice]
 disabled = false
 microphone_disabled = false
-activation_threshold = -30.0
+activation_threshold = -58.0
 input_device = ""
 output_device = ""
 disable_input_device = false
 use_javax_input = false
 microphone_volume = 1.0
-noise_suppression = false
+noise_suppression = true
 volume = 1.0
 compressor_limiter = true
 sound_occlusion = false
-directional_sources = false
-hrtf = false
-stereo_capture = false
+directional_sources = true
+hrtf = true
+stereo_capture = true
 
 [voice.volumes.broadcast]
 volume = 1.0
 [voice.volumes.proximity]
 volume = 1.0
-[voice.volumes.groups]
-volume = 1.0
 [voice.volumes.whisper]
+volume = 1.0
+[voice.volumes.groups]
 volume = 1.0
 [voice.volumes.priority]
 volume = 1.0
@@ -65,6 +74,6 @@ overlay_style = "NAME_SKIN"
 [overlay.source_states]
 broadcast = "OFF"
 proximity = "OFF"
-groups = "WHEN_TALKING"
 whisper = "OFF"
+groups = "WHEN_TALKING"
 priority = "OFF"
