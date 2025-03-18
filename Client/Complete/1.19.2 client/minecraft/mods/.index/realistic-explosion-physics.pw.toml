@@ -1,0 +1,16 @@
+filename = 'RealisticExplosionPhysics-1.19.2-1.0.0.jar'
+name = 'Realistic Explosion Physics'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2', '1.19.3', '1.19.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '615de83e700c3a41f0ea86a1be76a33698501a963df577b613028dd7e69c4a17bda44f0503b49f13741cc002a24778b0a58f391ac48e110fca4cf1fd649ddc64'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/VQjLRoqQ/versions/70gjD4uM/RealisticExplosionPhysics-1.19.2-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'VQjLRoqQ'
+version = '70gjD4uM'

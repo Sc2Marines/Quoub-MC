@@ -1,0 +1,16 @@
+filename = 'smallships-forge-1.19.2-2.0.0-b1.3.1.jar'
+name = 'Small Ships'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '9d85bd7b38693811528a0587c17b345f41c1ea8943c842b7312f3c947ac025c3469af9b653d17b32eb1a7a9e48be11f9b99174b426a9ab27af5cabb4664ba695'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rGWEHQrP/versions/Xn9phSUY/smallships-forge-1.19.2-2.0.0-b1.3.1.jar'
+
+[update.modrinth]
+mod-id = 'rGWEHQrP'
+version = 'Xn9phSUY'

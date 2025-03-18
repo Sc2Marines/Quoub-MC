@@ -1,0 +1,16 @@
+filename = 'astikorcarts-1.19.2-1.1.2.jar'
+name = 'AstikorCarts'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c7b5ec6432ba715dc0c25049f4ae77d9a117af644be8158c61e23294dd874fa9dfa2ae3f4e9de4f9b25407b712a8f3a3bbed9a5544df97cde4044b75a7bba03a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GDb7AxRc/versions/BW5OrZu6/astikorcarts-1.19.2-1.1.2.jar'
+
+[update.modrinth]
+mod-id = 'GDb7AxRc'
+version = 'BW5OrZu6'
