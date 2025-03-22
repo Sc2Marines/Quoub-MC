@@ -1,0 +1,16 @@
+filename = 'swingthroughgrass-1.19.2-1.10.0.jar'
+name = 'SwingThroughGrass'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '24386790558c55b8f9bc95a93c42fd3d807a95ed'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3922675
+project-id = 264353

@@ -1,0 +1,16 @@
+filename = '[1.19.2]-Siege-Machines-1.19.jar'
+name = 'Medieval Siege Machines'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19-Snapshot', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd1574485e76485d60b9a551c7e99917d3a60c6ce'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5365364
+project-id = 585964

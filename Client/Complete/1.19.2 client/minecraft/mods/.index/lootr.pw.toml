@@ -1,0 +1,16 @@
+filename = 'lootr-forge-1.19-0.4.29.76.jar'
+name = 'Lootr'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd5587b26a675ceb01c6c22918deec45a0ce91da75dd1a8b6d54d0697820c553737177be7608284ca72ab2d1f72543e43038cc1b1113f2b12d543559cff2ddae7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/EltpO5cN/versions/6ULhni05/lootr-forge-1.19-0.4.29.76.jar'
+
+[update.modrinth]
+mod-id = 'EltpO5cN'
+version = '6ULhni05'

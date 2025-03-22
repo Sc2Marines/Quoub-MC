@@ -1,0 +1,16 @@
+filename = 'DungeonCrawl-1.19-2.3.12.jar'
+name = 'Dungeon Crawl'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '686baaf66c40456b90f97879c1788b38f15127c0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4437208
+project-id = 324973

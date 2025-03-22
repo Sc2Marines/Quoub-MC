@@ -1,8 +1,15 @@
 %YAML 1.1
 ---
 isSafe: true
-icons: {
-    }
+icons:
+    minecolonies-icon-outpost:
+        label: Outpost
+    minecolonies-icon-hamlet:
+        label: Hamlet
+    minecolonies-icon-village:
+        label: Village
+    minecolonies-icon-city:
+        label: City
 sets:
     markers:
         hide: false

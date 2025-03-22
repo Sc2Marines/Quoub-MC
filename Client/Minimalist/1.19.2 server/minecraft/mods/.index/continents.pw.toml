@@ -1,0 +1,16 @@
+filename = 'Continents_1.20.4_v1.1.4.jar'
+name = 'Continents'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2', '1.19.3', '1.19.4', '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2347c5f80c88d278bac3e9b8472ddc18405110b53a365126b3ae4a485c9e416024f125b98dac2ee863a3ced6a0ccc353ff4ad9aa3e1ec5a8197bfd02eb176608'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bQ5TJA1E/versions/WHW8ec8k/Continents_1.20.4_v1.1.4.jar'
+
+[update.modrinth]
+mod-id = 'bQ5TJA1E'
+version = 'WHW8ec8k'

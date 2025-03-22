@@ -1,0 +1,16 @@
+filename = 'BarteringStation-v4.0.3-1.19.2-Forge.jar'
+name = 'Bartering Station'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7291d64374862aa95b8ec6e17ed9d95babba2ca152644ef62d442dc0d32fa4cff3ea0b503115f17ebf7469f974445c59b52bdd3fc805208b6c4499cdcf1833d8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/EOig9U0j/versions/xiH2XGVy/BarteringStation-v4.0.3-1.19.2-Forge.jar'
+
+[update.modrinth]
+mod-id = 'EOig9U0j'
+version = 'xiH2XGVy'
