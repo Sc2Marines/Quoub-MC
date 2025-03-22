@@ -45,6 +45,11 @@ Normally a server is already present in the `multiplayer` section, edit it and c
 ```
 public.pierrick.fr.eu.org:25565
 ```
+or (if the dns is not working) execute this command :
+```sh
+dig +short A public.pierrick.fr.eu.org
+```
+
 
 ## List of all things to configure (you can make a request to the owner to add some or remove some) (as a server admin).
 
