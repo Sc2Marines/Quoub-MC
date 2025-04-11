@@ -41,14 +41,8 @@ If you don't want to take all the JDK, you can just download the JRE (JDK contai
 
 **Join the server:**
 
-Normally a server is already present in the `multiplayer` section, edit it and check that it matches the given server's address.
-```
-public.pierrick.fr.eu.org:25565
-```
-or (if the dns is not working) execute this command :
-```sh
-dig +short A public.pierrick.fr.eu.org
-```
+Normally a server is already present in the `multiplayer` section, edit it and check that it matches the given server's address. You can found that in the discord server
+
 
 
 ## List of all things to configure (you can make a request to the owner to add some or remove some) (as a server admin).
