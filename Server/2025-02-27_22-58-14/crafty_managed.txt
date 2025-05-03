@@ -1,2 +1,0 @@
-The server is managed by Crafty Controller.
- Leave this directory/files alone please

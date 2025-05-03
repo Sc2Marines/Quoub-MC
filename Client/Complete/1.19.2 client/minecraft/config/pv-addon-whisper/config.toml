@@ -1,5 +1,0 @@
-# Supported values: [1-100]
-proximity_percent = 50
-activation_weight = 11
-sourceline_weight = 11
-visualize_distance_hex_color = 8514796

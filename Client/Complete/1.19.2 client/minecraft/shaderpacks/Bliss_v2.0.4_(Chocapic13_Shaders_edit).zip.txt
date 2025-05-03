@@ -1,6 +1,0 @@
-#Thu Feb 27 21:30:07 CET 2025
-Rough_reflections=true
-Screen_Space_Reflections=true
-Porosity=true
-Specular_Reflections=true
-POM=true
